@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Food</title>
+</head>
+<body>
+  <h1>My Favorite Foods</h1>
+  <p>Delicious and easy recipes made with everyday cooking</p>
+  <style>
+    h1{
+      color: rgb(9, 0, 139);
+      text-align: center;
+      font-size: 300%;
+    }
+    p{
+      color: darkslategray;
+      font-size: large;    
+    }
+    h2{
+      color: rgb(39, 0, 148);
+    }
+    li{
+color: darkolivegreen;    
+}
+tr{
+  color: rgb(100, 160, 60);
+}
+ body{
+  background-color: rgb(196, 255, 211);
+ }
+  </style>
+  <h2>Food List</h2>
+  <ul>
+    <li>Biryani</li>
+    <li>khabab</li>
+    <li>Ice Cream</li>
+  </ul>
+  <h2>Biryani</h2>
+  <p>Biryani is a flavorful rice dish made with spices and chicken or beef.</p>
+  <img src="baryani.jpeg" height="200" width="200" alt="">
+  <h2>khabab</h2>
+  <p>Kabab is a flavorful dish made of spiced, grilled or fried minced meat</p>
+    <img src="kabab.jpeg" height="200" width="200" alt="">
+  <h2>3. Ice Cream</h2>
+  <p>Ice Cream is a cold, sweet dessert loved by kids and adults alike.</p>
+    <img src="ice cream.jpeg" height="200" width="200" alt="">
+  <h2>Food Price Table</h2>
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Biryani</td>
+      <td>Rs. 350</td>
+    </tr>
+    <tr>
+      <td>khabab</td>
+      <td>Rs. 300</td>
+    </tr>
+    <tr>
+      <td>Ice Cream</td>
+      <td>Rs. 200</td>
+    </tr>
+  </table>
+  <h2>Order Your Favorite Food</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="food">Choose Food:</label>
+    <select id="food" name="food">
+      <option value="biryani">Biryani</option>
+      <option value="khabab">khabab</option>
+      <option value="icecream">Ice Cream</option>
+    </select><br><br>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity"><br>
+    <input type="submit" value="Order Now">
+  </footer>
+</body>
+</html>
